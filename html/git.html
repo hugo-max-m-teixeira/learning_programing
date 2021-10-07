@@ -1,0 +1,51 @@
+<!DOCTYPE htnl>
+<style>
+	h2{
+		margin-left: 40px;
+		font-family: monospace;
+	}
+	h3{
+		font-family:arial;
+		margin-left: 60px;
+	}
+	.topic{
+		font-family:arial;
+		margin-left:80px;
+	}
+	footer{
+		margin-left:30px;
+	}
+</style>
+
+<head>
+	<meta charset="utf-8">
+	<title>Versionamento GIT</title>
+	<center><h1>Versionamento com Git</h1></center>	
+
+</head>
+
+<body>
+	<h2>Já pensou se fosse possível "voltar no tempo"? </h2>
+	<h2>Com o Git isso é possível :)</h2>
+
+	<h3>Mas como usar essa coisa?</h3>
+
+	<ol class="topic">
+		<li>Crie o repositório de trabalho(onde ficarão os arquivos, programas) caso ele ainda não exista</li>
+		<li>Abra o terminal e, dentro do repositório de trabalho, inicie o Git com o comando "git init"</li>
+		<li>Agora é necessário informar para o Git quais arquivos queremos para ele monitorar. Para isso use: git add arquivo-tal.txt , substituindo "arquivo-tal.txt" pelo nome do arquivo desejado</li>
+		<li>Para dar commit (criar um ponto na história, um porto seguro para vaoltar em caso de pânico) digite: git commit -m "meu-commit" substitua "meu-commit" pela mensagem que você quer deixar para referenciar(para lembrar, caracterizar) esse commit</li>
+	</ol>
+	
+	<h3>OK, legal. Mas agora quero enviar meus commits para o GitHub. Como fazer isso?</h3>
+	<ol class="topic">
+		<li>git remote add origin "link do seu repositório remoto"</li>
+		<li>git push -u origin master</li>
+	</ol>
+
+</body>
+
+<footer>
+	<p>by: Hugo Max M. Teixeira</p>
+</footer>
+

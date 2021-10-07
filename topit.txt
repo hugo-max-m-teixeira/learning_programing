@@ -1,0 +1,5 @@
+clear - limpa o terminal
+touch texto.txt - cria um arquivo chamado texto na extensão/formato txt
+cat texto.txt - mostra o conteúdo do arquivo texto.txt
+rm texto.txt - remove (deleta, apaga) o arquivo texto.txt
+
