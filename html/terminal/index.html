@@ -8,9 +8,18 @@
 		margin-left:80px;
 		font-size:18px;
 	}
-	.comands{
+	.commands{
 		background-color: silver;
 		margin-right: 100px;
+		border-radius: 20px;
+	}
+	h1{
+		font-family: arial;
+		padding: 20px;
+		background-color: yellow;
+		margin-right: 60px;
+		margin-left: 120px;
+		border-radius: 20px;
 	}
 	h2{
 		margin-left:60px;
@@ -18,6 +27,10 @@
 	footer{
 		font-size:16px;
 		margin-left:30px;
+	}
+	body{
+		background-color: #6FC6EF;
+		margin-right: 60px;
 	}
 </style>
 
@@ -28,7 +41,7 @@
 
 <body>
 	<center>
-	<h1>Como usar o terminal bash</h1>
+	<h1>Como usar o terminal bash (Linux)</h1>
 	</center>
 
 	<h2 class="fonte">Outros nomes para a linha de comando: </h2>
@@ -47,9 +60,14 @@
 		<li>Realiza certas tarefas de maneira mais rápida</li>
 		<li>Exemplo: versionamento com git, criação de diretórios(pastas), de arquivos rápidos...</li>
 	</ul>
-
+	
+	<h2 class="fonte">Como entrar no terminal</h2>
+		<ul class="body-font">
+			<li><strong>Se você estiver usando Linux</strong>: Pode pressionar a tecla super (bandeira do Windows) e pesquisar por terminal ou simplesmente usar o atalho de teclado Crtr + Alt + T</li>
+			<li><strong>Se você estiver usando Windows</strong>: Terá que instalar algum aplicativo para que os comandos que veremos abaixo funcionem, sugiro fortemente que você instale o <a href="https://git-scm.com/" target="blank_")>Git</a> (usaremos ele mais tarde para fazer o versionamento de nossos códigos). Após instalar, pressione a tecla super (bandeirinha do Windos) e pesquise por Git Bash, esse será o terminal que usaremos.</li>
+		</ul>
 	<h2 class="fonte">Alguns comandos...</h2>
-	<ul class="body-font comands">
+	<ul class="body-font commands">
 		<li>pwd - (print working directory) - mostra onde você está(diretório atual)</li>
 		<li>cd - (change directory) - leva-te para outro lugar (muda de diretório)</li>
 		<li>ls - (list) - lista os diretórios dentro do diretório atual</li>
@@ -61,8 +79,8 @@
 		<li>nano arquivo.txt - nano é um editor de texto que já vem instalado por padrão, aqui estamos editando o arquivo arquivo.txt</li>
 	</ul>
 	<h2 class="fonte">E bola para frente...</h2>
-	<p class="body-font">Vamos instalar um aplicativo pelo terminal?</p>
-	<p class="body-font">sudo apt-get install htop </p>
+	<p class="body-font">Vamos instalar um aplicativo pelo terminal? (obs.: Funciona somente para terminal Linux)</p>
+	<p class="body-font commands">sudo apt-get install htop </p>
 
 	<footer>
 		<p>by: Hugo Max M. Teixeira</p>
