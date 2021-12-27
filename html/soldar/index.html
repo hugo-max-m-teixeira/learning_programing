@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body{
+      background-color: #e9e9e9;
+    }
+    h2{
+      font-family: monospace;
+      font-size: 26px;
+      margin-left: 25px;
+      margin-right: 25px;
+      padding: 40px;
+      background-color: #b5e8ff;
+      border-radius: 20px;
+    }
+    h4{
+      font-family: monospace;
+      font-size: 16px;
+    }
+    .middle_margin{
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    .content_margin{
+    	margin-left: 45px;
+    	margin-right: 45px;
+    }
+    .description{
+      font-size: 20px;
+      text-align: center;
+      font-weight: 400;
+    }
+    .advice{
+      font-family: monospace;
+      font-size: 18px;
+      font-weight: 300;
+    }
+    .img_adjust{
+      width: 60%;
+      height: auto;
+    }
+    .border{
+    	border-style: dashed;
+    	border-width: 5px;
+    	border-color: gray;
+    	border-radius: 15px;
+    }
+	.content{
+		font-family: arial;
+		font-size: 17px;
+		line-height: 30px;
+	}
+  </style>
+  <head>
+    <meta charset="utf-8">
+    <title>Soldando</title>
+  </head>
+  <body>
+    <center>
+      <h2>Solda Eletrônica - como soldar e algumas dicas</h2>
+    </center>
+    <h4 class="description middle_margin">Se você está tendo dificuldades para soldar algum cabo, fio ou até mesmo algum componente à uma placa eletrônica,
+       esse artigo foi feito para você.</h4>
+    <h5 class="advice middle_margin">Caso já tenha alguma boa experiência com soldagem, não precisa perder seu tempo aqui,
+       essa é uma instrução básica para quem está levando suas primeiras queimaduras com o famoso ferro de solda.</h5>
+    <center>
+      <img class="img_adjust border" alt="Um ferro de solda comum" src="https://lh3.googleusercontent.com/pw/AM-JKLXAx284t5s3uUSFE5vr1TXDVxgWMvAxHs6zkZMEoOVmkbzyTybHvGmyTcale1nUA91ostiub3eqxNQWelTEeOfjLZSnDHfzLx9cWoVa2k9wtM4rDbX4PhqOXtlcdK3-RWsFQxuZCXxuky8Z7CqiHfs=w1232-h693-no?authuser=0">
+      <figcaption>Ferro de solda comum</figcaption>
+    </center>
+    <p class="content content_margin">
+      Antes de começarmos a soldar de fato. É necessário que você saiba que o fio de solda comumente encontrado nas lojas (solda eletrônica ou solda 60/40)
+      normalmente é formado não somente pela solda em si. No centro do fio de solda é comum a presença de fluxo de solda,
+      que ajuda bastante na aderência da solda ao material que está sendo soldado. Essa substância entra em ação no momento
+      em que a solda derrete (se funde).
+    </p>
+    <center>
+		<img style="width: 80%; height: auto;" class="border" alt="composição usual do fio de solda" src="https://lh3.googleusercontent.com/d1KfJU9DcpIQkfJnSpQ50Z5McfFAIjWvbaqOPFygx6mvgf6Wr-C3vZXt30aq14v3IjyWPlS1nTdn1dp9_UnIzlzcfkE7SJGUvziddJahGGY9Pxfxa9C4osVei55RPJ3e8IiIWOf45ZdqOgXQKabKD78a7q3vfVAQIKZJimhJs34-DTjtfATymqGCEFHdC_mrs1I7QeiovoZSgVJGWz5CYOuMFwdC-X8s36SNkyOketivx6nF6zepkEyZrP4yAdbD_pC7wwKaPRtAuIoPoQ7UBhdRfP10VgkAimzF2gr2E9DYiq6L1K6MyRu4bpkTQ-hAi417RmRdNe6o6jFkwUGZyo0L6vZ_Hig_dWD0UQj5P3YFEAroQLYBVC_gB4tj5gRye01FbH2RUTS1kDn5oGZ2aRs1n7tqCVFIE1cdy8HVlFLdl_OSc5w5rgkaPaO2OOlffUB-n6vdeZ0d_VyCAiKJIv9uGkLklbVqL1qWvXWsBfFo064LO52wz3reRx9jEpz69qMQdXwJdJikrRd67d1bYxBXqCthK8No_jErGS4nx23Jy0uepyIValw9skQXol_1zxKvIhb1bFd8vc8gIXvwdRp92nEyq1usaQEvHBEiFwz_uxq6k-1zfhf6Qu9Q2uqpPTPdNmyidavWGQ5PoB_eTF8JmvkY6kZvr75ypdHFq4-oyQUGELN_HS3i0nFSkglKC1k8QuNEGK2TmnibcLkLn3g=w909-h395-no?authuser=0">
+		<figcaption class="content">Representação do fio de solda comercial</figcaption>
+		<img style="width: 50%; height: auto;" class="border" alt="Fio de solda cortado " src="https://lh3.googleusercontent.com/iaEBFyH4K5FqvPXFH_g7bn4k4DkB-fT8dgr6Nsp8BjhmiqCgKEtIZbiVARmNX8b9PhJsKWlbUCdRwR5qsHbn-69QSfO6RVMj8VpoWTrsKPxRL7_6IQudH5zOjzM2_D1yR5957rY_u9wflconLe_f-1V4l7ZZ3qeyXBd_narLCN1UIoUW6XAzzKbZwCNl-5iFGm2vI97GKwAZSgO1y95ozZYdPBju_CdUqovpJRicV6fvpVP0XD_Cd8PSLAXAAHEjJOaql5E1-p9a1q2hU4Y1M4KRALdFc5xkKC7EI6y7428w0Uv26di7Z1Go3bFTiKMxnUo3yYhJizkAd9LLHx8I7jX6P5-pzgkMtBGatX961b9HBuApmLTENWU4KfNqwyPbweEgUo92vLj46nXakvZoIGdXVLjBBiTjbGXkxeY5-H9m5liTLHbtYEFmMaRYtMqjL8ced0t1D5EivBr_SsCgdeutUB4pm--HWZyTfHsJOA29Voam-z2HdMHqpri4B-SDc9BjYl0ZOGJv7rZuq2p97TYfXj27_69bnvNq0McysV8_o63nbegBkIMducmWsS2Z8BrXoXQ9peK8f8VckG_HYAMHOnpmQRZDY7mfCJ-wtbMUt353Py0XMn5eA4Bb6G7cefHzhVsFcLw6AHcqQUGyuIg5NYnZRFgQldLMGmq0GBtvGO8aLY5H--1O5ICzpwhpo1WlyqjfGDdq5IuMqDwI2HE=w1232-h693-no?authuser=0">
+		<figcaption class="content">Fio de solda cortado visto de bem perto</figcaption>
+    </center>
+    <div class="content content_margin">
+		<p>Certo. Mas porque você precisa saber disso antes de soldar?</p>
+		  <p>
+		  Conforme o fio de solda se funde o fluxo é queimado. Então se a solda for aplicada primeiro
+		  ao ferro de solda e depois levada ao material que você soldará,
+		  o fluxo que deveria ajudar no processo de aderência da solda é totalmente queimado logo quando o fio de solda é fundido.
+		  Desse modo, a solda pode não aderir bem ao material que será soldado,
+		  desporendendo-se facilmente ou simplesmente não aderindo à superfice.
+		</p>
+		<p>Entendi. Agora como posso soldar de forma que a a liga metálica não se desprenda facilmente, aderindo bem à superfice?</p>
+		<h4>Passos para uma boa solda</h4>
+		<ol>
+		  <li>– superfice limpa – Certifique-se de que a superfice (coisa que será soldada) está limpa,
+		     para que a liga metálica consiga aderir a ela.
+		  </li>
+		  <li>– aqueça a superfice – Encoste a ponta do ferro de solda na superfice por alguns segundos
+		     (de 2 a 4 segundos mais ou menos).
+		  </li>
+		  <li>– aplicando a solda – Ainda com o ferro de solda encostado na superfice, encoste a ponta do fio de solda no local aquecido,
+		     assim a solda derretará aderindo à superfice. Caso a solda não derreta, encoste levemente a solda na ponta do ferro de solda.
+		      Ao perceber que a quantidade de solda aplicada já é suficiente, retire o fio e o ferro de solda da superfice.
+		    </li>
+		</ol>
+		<center>
+		<img style="width:75%; height: auto;" alt="Quantidade ideal de solda" src="https://lh3.googleusercontent.com/pw/AM-JKLUxrZy6BzD_C13W7dhZjTH9QAA-ikbE63MtIRPCWSE1KAKyBNXbfyLy6wY7K1vdrEAF2lJ9s10bQG76lsOJQopp8F4B4alTAFPNpv5RSH8ZlpgTcBUMa2Lby6HxfmqLNm8NSWn_Y0-AsRJqlZY0N1w=w621-h271-no?authuser=0">
+		</center>
+		<p>
+			Quando estiver aplicando o fio de solda à superfice aquecida é normal que seja liberada uma fumaça branca, é o resultado da queima do fluxo de solda. Cuidado para não aspirar esses gases liberados, podem conter chumbo e várias outras substâncias tóxicas que podem fazer mal à sua saúde. Recomenda-se que a aplicação de solda eletrônica seja feita em local aberto, com um ventilador ou com um exaustor para que tais gases não sejam inalados por quem está soldando ou pessoas que estejam próximas do local.
+		</p>
+    <h3>Alguns casos específicos:</h3>
+    <ul>
+      <li>
+         <h4>Soldar a ponta de um cabo ou fio de cobre</h4>
+         <p>Para essa situação, quando for para o passo 2 (aquecer a superfice) recomendo enconstar a ponta do ferro de solda acima do cabo ou fio.
+            Após o aquecimento, aplicque a fio de solda entre a ponta do ferro de solda e o cobre. A liga metálica deve ser “absorvida” pelo cobre.</p>
+            <center>
+            <img class="img_adjust border" alt="Soldando um cabo de cobre" src="https://lh3.googleusercontent.com/pw/AM-JKLWBaows9dL9e2_eQ7sP46TA3aAfz6THsGZzOyih-uQfZ7yyAtAusNUvsOSOcKbqccV6c7Uz0u2u-FQp8RapcWzK9djTBtsRunM6T3fwcUjV0ISejNRU4FLKfZ2RCJg-n_z8GGfO2LxbyQoKHg26a0s=w1232-h693-no?authuser=0">
+            <figcaption>Encostando a ponta do ferro de solda em cima do cabo de cobre</figcaption>
+	</center>
+      </li>
+      <li>
+        <h4>Soldar um fio de cobre esmaltado</h4>
+        <p>
+          Fios ou um emaranhado de fios (que formam um cabo) podem vir esmaltados – revestidos por uma camada de esmalte isolante parecido com verniz –
+          em equipamentos como transformadores, bobinas, fones de ouvido, e também em casos em que você aquece demais a superfice a ponto de ela oxidar.
+          Caso esse seja o seu caso, basta “dar uma raspadinha” com uma faca ou estilete no entorno do  fio ou nos fios. Isso faz com que o esmalte seja,
+           pelo menos em parte, removido, permitindo a aderência da solda.
+        </p>
+        <center>
+		    <img class="border img_adjust" alt="raspando o fio de cobre esmaltado" src="https://lh3.googleusercontent.com/pw/AM-JKLXrVJpSfY7ON4CWLkoEssyLl5AvSvMO2X_S3GO1NCBRYmq8EJE1w8ZvbY8EtYJn0HNtwVqtr0_wrSAlLyx0pqd53_kGFPEAq74CzA9vastx2BjrcEBQobMGW2IZl1KMae5Q-JiWQNJh537pt5ZORn4=w1232-h693-no?authuser=0">
+		     <figcaption>Raspando fio de cobre esmaltado</figcaption>
+		    <img class="border img_adjust" alt="raspando o fio de cobre esmaltado" src="https://lh3.googleusercontent.com/pw/AM-JKLWVHuOE-1gA7SJZzySavtud08gbs2E-LsENcgQ4rFdyy9pOhmq_yzrMBws0Ck7HL29PjSiuFqBZVm9lN4roFGN_64TSVurGJ0Eno7seBvMQLWlctPbESxYTfaTnHZ0eJBsJqSt5KMOfyBLrMlJ9b8s=w1232-h693-no?authuser=0">
+			 <figcaption>Fio de cobre esmaltado já raspado</figcaption>
+		 </center>
+      </li>
+    </ul>
+	</div>
+  </body>
+  <footer>
+  	<p>
+  		By: Hugo Max M. Teixeira
+  	</p>
+  </footer>
+
+</html>
