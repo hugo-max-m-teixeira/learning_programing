@@ -54,6 +54,24 @@
 		height: auto;
 		padding-top: 56.25%;
 	}
+	.iframe-container {
+		overflow: hidden;
+		position: relative;
+		width:100%;
+	}
+	.iframe-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+	}
+	.iframe-container iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
   </style>
   <head>
     <meta charset="utf-8">
@@ -143,9 +161,11 @@
     <p>
     Abaixo segue um vídeo explicativo caso ainda tenha dúvidas.
     </p>
-    <center>
-    <iframe class="border video" width="853" padding="20" height="480" src="https://www.youtube.com/embed/EIvrcHyqrK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </center>
+    <div class="iframe-container">
+		<center>
+		<iframe width="804" height="452" src="https://www.youtube.com/embed/EIvrcHyqrK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</center>
+    <div>
 	</div>
   </body>
   <footer>
