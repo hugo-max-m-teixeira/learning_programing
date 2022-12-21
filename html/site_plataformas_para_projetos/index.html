@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" >
+		<title>
+			Onde prototipar?
+		</title>
+	</head>
+	
+	<body>
+	<center>
+		<h1>
+			Protoboard, Placa Universal ou Placa de Circuito Impresso?
+		</h1>
+	</center>
+	<p>
+		Quando estamos desenvolvendo um projeto, seja ele puramente eletrônico, com plataformas de prototipação como a Arduino, etc. É de comum a realização da conecção entre os componentes em matrizes de contato (protoboards), por montagem aranha (usando os terminais dos próprios componentes), etc.
+	</p>
+	<center>
+		
+		<img class="img_medium border_around " src="https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gP3oeKag2RpYniCmHc1eBstAPFSqQ6SvNlVpMOCvaO3SrW4PKP3x-1-97_PcPMBx8ov4OxJldxlnMBXUWmbOd_SFeGFuA=w1306-h668" alt="Ilustração de um projeto em montagem aranha">
+		<figcaption>Montagem aranha</figcaption>
+			
+		<img class="img_medium border_around" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gMpHv19YjxSic1_pD4Zq_Vf3mRiCBQiVWzYZyt_X_2Esyvc1mO-irLEjVyIA_Fbg4LqtWXV1zL1aLPL-fAHRWMlKAJ-MQ=w1306-h668" alt="Ilustração de um projeto em protoboard">
+		<figcaption>Montagem em protoboard</figcaption>
+		
+	</center>
+	<p>
+	 Essas formas de montagem são muito práticas para a prototipação, quando ainda estamos montanto ou testando nosso projeto. Elas possibilitam a realização de alterações de valores, remoção ou adição de outros componentes conforme os testes feitos no circuito. Além disso, temos a vantagem de podermos reaproveitar componentes utilizados em montagens anteriores.
+	</p>
+	<p>
+		Apesar de didática, montagens em protoboards não são interessantes como forma definitiva de conexão entre componentes. Além da grande possibilidade de mau contato (principalmente em matrizes de contato que já têm muita história para contar, mais usadas), projetos que necesstam de freqências mais elevadas (como 1MHz) podem sofrer com a ação de capacitâncias parasitas causadas pelas ligações internas da protoboard.
+	</p>
+	<p>
+	Já nas montagens aranha não temos tantos problemas com mau contato, caso a soldagem dos componetes seja bem feita. Existem até equipamentos profissionais que são feitos dessa maneira, principalmente os que trabalham com tensões ou correntes elevadas. Entretanto, montagens aranha não são recomendadas para projetos maiores por motivos perceptíveis como: o circuito passa a apresentar um volume muito grande e fica difícil identificar componetes e conexões em meio a uma “bolinha de fios e terminais”.
+	</p>
+	<p>
+	Quando o circuito que temos em mente já está bem estabelecido (quando não haverão mais alterações, ou pelo menos é isso que pensamos), podemos ainda partir para o uso de placas de circuito impresso perfuradas, ou universais.
+	</p>
+	<p>
+	 O uso desse tipo de placa possibilita que arranjemos os componentes em uma placa própria para a montagem de circuitos e que realizemos as conexões entre os componentes soldados na placa com solda ou fios, dando mais organização e certa confiabilidade ao projeto quanto à choques mecânicos (batidas), evitando mau contado.
+	</p>
+	<p>
+	Tudo está ótimo até aqui. Considerando que as placas universais perfuradas são extremamente práticas, possibilitando a montagem de protótipos de maneira rápida (ou não tão rápida dependendo da complexidade do circuito). Iclusice, caso haja necessidade, em alguns casos os circuitos montados nessas placas podem ser desfeitos para dar lugar a um novo protótipo ou projeto. Ou seja, caso as ilhas (rodinhas de cobre que circundam os furos das placas onde os terminais dos componentes podem ser soldados) não se desprendam da placa durande a remoção dos componentes, ela poderá ser reutilizada.
+	</p>
+	<p>
+	Entretanto, quando partimos para projetos mais criteriosos e com uma escala de produção maior algumas dificuldades aparecem. 
+	</p>
+	<p>
+	Primeiro nos deparamos com a dificuldade de confecção de projetos em placas de circuito universais. Como as trilhas são feitas com  a própria solda, algumas pessoas podem ter dificuldade em contruí-las.
+	</p>
+	<p>
+	Quando precisamos construir várias placas para um projeto que está sendo confeccionado em série(em quantidade maior) também encontramos dificuldades: a confecção puramente manual é trabalhosa e demorada.
+	</p>
+	<p>
+	Em casos assim, em que temos um projeto mais estável, crítico ou que precisa ser replicado várias vezes, podemos partir para o uso de placas de circuito impresso. A os métodos artesanais de fabricação dessas placas (mais acessíveis e rápidos aos projetistas) permitem que várias sejam confeccionadas em tempo bem menor quando comparamos com a as placas universais perfuradas.
+	</p>
+	<p>
+	A figura ao lado ilutra uma chamada placa de circuito impresso (PCI, ou em inglês também conhecida como PCB – Printed Circuit Board). Além do acabamento mais profissional, essas placas permitem que o projeto seja melhor compactado e planejado por programas de computador desenvolvidos especificamente para essa função, programas de CAD para placas de circuito impreso.
+	</p>
+	<p>
+		Devemos aqui ressaltar que não necessariamente partir logo para a fabricação de uma placa de circuito impresso seja uma forma de “pular” as etapas anteriores. 
+	</p>
+	<p>
+	Isso pode ter algumas consequências: a primeira delas é o projeto simplesmente não funcionar como o esperado porque não foi bem testado na etapa de prototipação anterior; A segunda seria o prejuízo de material gerado pela construção de uma placa com funcionamento comprometido.
+	</p>
+	<p>
+	É recomandado que, sempre que possível, o projeto seja bem testado e avaliado nas etapas de prototipação com protoboard, montagem aranha ou até em placa universal.
+	</p>
+	<p>
+	Também devemos considerar a questão do tempo e recursos necessários para a fabricação. O projetista poderá necessitar do projeto montado para iniciar os testes de funcionamento, nesse caso o tempo de montagem poderá ser um ponto importante a considerar.
+	</p>
+	<p>
+		A exemplo, um projeto que leva um dia para ser  feito em placa universal poderá levar também um dia para ser montado em placa de circuito impresso (ou até mais dependendo da metodologia usada para a fabricação). O projeto em placa univeral usaria, além dos componentes do projeto, a placa universal e a solda eletrônica equanto que que a fabricação de uma única (uma unidade somente) placa de circuito impresso necessitaria de vários outros materiais, como a solução para corrosão do cobre, perfurador de placas, etc.
+	</p>
+	<p>
+	Aqui não detalhamos o proceso de  confecção de cada tipo de placa, mas ressaltamos a partir de que ponto devemos mudar para uma outra plataforma que acomode nossos circuitos.
+	</p>
+	<p>
+	
+	</p>
+	
+	
+	</body>
+
+</html>
