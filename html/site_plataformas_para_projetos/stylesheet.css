@@ -20,7 +20,7 @@ figcaption{
 	font-size: 17px;
 }
 .img_medium{
-	width: 35%;
+	width: 85%;
 }
 
 .border_around{
@@ -29,4 +29,8 @@ figcaption{
 	border-color: gray;
 	border-radius: 15px;
 }
+.align_h{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
