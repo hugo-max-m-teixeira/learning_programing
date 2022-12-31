@@ -10,17 +10,35 @@ h1{
 	border-radius: 20px;
 }
 
+h2{
+	margin-left: 8%;;
+	margin-right: 10%;
+}
+
 p{
 	font-size:17px;
-	margin-left: 35px;
-	margin-right: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+p::before{
+ 	
 }
 
 figcaption{
 	font-size: 17px;
 }
+
+.tab::before{
+	content: &nbsp;&nbsp;
+}
+
 .img_medium{
-	width: 85%;
+	width: 90%;
+}
+
+.img_small{
+	width: 64%;
 }
 
 .border_around{
